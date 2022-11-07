@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./Assets/pyramids-neon-wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+#name{
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 7px;
+
+}
+input:focus{
+    padding: 25px 25px;
+    box-shadow: 0 0 25px #e1ff00,
+    0 0 75px #d0f321;
+
+}
+h3{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #e1ff00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+ 
+
+a:hover{
+    color: #255784;
+    background: #e1ff00;
+    box-shadow: 0 0 10px #e1ff00, 0 0 10px #e1ff00, 0 0 40px #e1ff00, 0 0 80px #e1ff00; 
+
+}
+
+a:active {
+    background-color: #de1714;
+    box-shadow: 0 5px #030303;
+    transform: translateY(15px);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
